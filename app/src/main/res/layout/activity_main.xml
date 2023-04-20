@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+<EditText
+    android:id="@+id/num1_edit"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:hint="数値1"
+    android:inputType="number"
+    android:textSize="24sp" />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="+"
+    android:textSize="24sp"/>
+
+<EditText
+    android:id="@+id/num2_edit"
+    android:layout_width="80dp"
+    android:layout_height="wrap_content"
+    android:hint="数値2"
+    android:inputType="number"
+    android:gravity="center"
+    android:textSize="24sp"/>
+
+
+<Button
+    android:id="@+id/eq_btn"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:text="="
+    android:textSize="24sp" />
+
+<TextView
+    android:id="@+id/result_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="結果"
+    android:textSize="24sp" />
+
+    </LinearLayout>
